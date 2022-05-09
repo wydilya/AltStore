@@ -8,15 +8,14 @@
 
 import UIKit
 
-class NewsCollectionViewCell: UICollectionViewCell
-{
+class NewsCollectionViewCell: UICollectionViewCell {
+    
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var captionLabel: UILabel!
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var contentBackgroundView: UIView!
     
-    override func awakeFromNib()
-    {
+    override func awakeFromNib() {
         super.awakeFromNib()
         
         self.contentView.preservesSuperviewLayoutMargins = true
